@@ -1,4 +1,12 @@
 # Change Log
+## Fork v1.0.1
+
+* Compiled code properly to fix the previous release
+
+## Fork v1.0.0 (BAD RELEASE)
+
+* Commented out call to installAndroidSdk
+* ToDo: Remove all of the SDK installing code
 
 ## v2.27.0
 
