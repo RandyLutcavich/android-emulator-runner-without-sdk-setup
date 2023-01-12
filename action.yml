@@ -1,6 +1,6 @@
-name: 'Android Emulator Runner'
-description: 'Installs, configures and starts an Android Emulator directly on macOS virtual machines.'
-author: 'Reactive Circus'
+name: 'Android Emulator Runner Without SDK Setup'
+description: 'Installs, configures and starts an Android Emulator directly on virtual machines without trying to setup the Android SDK.'
+author: 'RL - Forked from: Reactive Circus'
 branding:
   icon: 'smartphone'
   color: 'green'
