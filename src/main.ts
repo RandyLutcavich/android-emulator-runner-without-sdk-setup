@@ -173,8 +173,8 @@ async function run() {
     });
     console.log(`::endgroup::`);
 
-    // install SDK
-    await installAndroidSdk(apiLevel, target, arch, channelId, emulatorBuild, ndkVersion, cmakeVersion);
+    // THIS FORK SPECIFICALLY DOES NOT TRY TO INSTALL ANDROID SDK
+    // await installAndroidSdk(apiLevel, target, arch, channelId, emulatorBuild, ndkVersion, cmakeVersion);
 
     // execute pre emulator launch script if set
     if (preEmulatorLaunchScripts !== undefined) {
