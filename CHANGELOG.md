@@ -1,5 +1,22 @@
 # Change Log
 
+## Fork v1.0.3
+
+* Added explicit AVD path to avdmanager call 
+
+## Fork v1.0.2
+
+* Added missing node modules
+
+## Fork v1.0.1 (BAD RELEASE)
+
+* Compiled code properly to fix the previous release
+
+## Fork v1.0.0 (BAD RELEASE)
+
+* Commented out call to installAndroidSdk
+* ToDo: Remove all of the SDK installing code
+* 
 ## v2.27.0
 
 * Added `pre-emulator-launch-script` to support running script after creating the AVD and before launching the emulator.  - [#247](https://github.com/ReactiveCircus/android-emulator-runner/pull/247) @nilsreichardt.
